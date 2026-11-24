@@ -1,0 +1,26 @@
+# ---- Identity (edit these) ----
+title: Your Name
+author: Your Name
+description: Software engineer and AI researcher.
+email: you@example.com
+github: your-github-username
+linkedin: your-linkedin-username
+scholar: ""          # Google Scholar profile id, e.g. AbCdEfGh1234 (optional)
+
+# User site (username.github.io): leave baseurl empty.
+# Project site: baseurl: "/repo-name"
+url: "https://your-github-username.github.io"
+baseurl: ""
+
+nav:
+  - { title: Home,     url: / }
+  - { title: Research, url: /research/ }
+  - { title: Projects, url: /projects/ }
+
+# ---- Build (no theme: or remote_theme: line, this site ships its own) ----
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

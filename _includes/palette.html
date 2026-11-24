@@ -1,0 +1,24 @@
+<dialog class="palette" id="palette" aria-label="Quick jump">
+  <div class="palette__box">
+    <input id="palette-input" type="text" placeholder="Go to a page or action" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="true" aria-controls="palette-list">
+    <ul id="palette-list" role="listbox"></ul>
+    <p class="palette__hint"><kbd>↑</kbd> <kbd>↓</kbd> to move, <kbd>Enter</kbd> to open, <kbd>Esc</kbd> to close</p>
+  </div>
+</dialog>
+<script type="application/json" id="palette-data">
+[
+  {% for item in site.nav -%}
+  { "label": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}, "group": "Page" },
+  {% endfor -%}
+  { "label": "Copy email address", "action": "copy-email", "value": {{ site.email | jsonify }}, "group": "Action" }
+  {%- if site.github %},
+  { "label": "Open GitHub profile", "url": "https://github.com/{{ site.github }}", "group": "Link" }
+  {%- endif %}
+  {%- if site.linkedin %},
+  { "label": "Open LinkedIn profile", "url": "https://www.linkedin.com/in/{{ site.linkedin }}", "group": "Link" }
+  {%- endif %}
+  {%- if site.scholar != "" %},
+  { "label": "Open Google Scholar", "url": "https://scholar.google.com/citations?user={{ site.scholar }}", "group": "Link" }
+  {%- endif %}
+]
+</script>

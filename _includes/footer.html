@@ -1,0 +1,10 @@
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <p>© {{ 'now' | date: '%Y' }} {{ site.author }}</p>
+    <p class="foot__links">
+      {% if site.github %}<a href="https://github.com/{{ site.github }}" rel="me">GitHub</a>{% endif %}
+      {% if site.linkedin %}<a href="https://www.linkedin.com/in/{{ site.linkedin }}" rel="me">LinkedIn</a>{% endif %}
+      {% if site.scholar != "" %}<a href="https://scholar.google.com/citations?user={{ site.scholar }}" rel="me">Scholar</a>{% endif %}
+    </p>
+  </div>
+</footer>

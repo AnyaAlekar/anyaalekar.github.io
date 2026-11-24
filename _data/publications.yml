@@ -1,0 +1,23 @@
+# type: paper | report     year is used for grouping
+- type: paper
+  year: 2026
+  title: Title of your most recent paper
+  authors: A. Collaborator, Your Name, B. Collaborator
+  venue: Conference or Journal Name
+  links:
+    - { label: PDF,  url: "https://example.com/paper.pdf" }
+    - { label: Code, url: "https://github.com/your-github-username/repo" }
+- type: paper
+  year: 2025
+  title: Title of an earlier paper
+  authors: Your Name, C. Collaborator
+  venue: Workshop Name
+  links:
+    - { label: arXiv, url: "https://arxiv.org/abs/0000.00000" }
+- type: report
+  year: 2025
+  title: Title of a technical report
+  authors: Your Name
+  venue: Technical report, Organisation
+  links:
+    - { label: PDF, url: "https://example.com/report.pdf" }

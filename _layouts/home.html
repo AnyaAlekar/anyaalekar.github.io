@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+<section class="wrap hero">
+  <div class="hero__text">
+    <p class="hero__role">{{ p.role }}{% if p.location %}, {{ p.location }}{% endif %}</p>
+    <h1 class="hero__name">{{ site.author }}</h1>
+    <div class="hero__intro">
+      {% for para in p.intro %}<p>{{ para }}</p>{% endfor %}
+    </div>
+    <p class="hero__actions">
+      <a class="btn btn--solid" href="{{ '/research/' | relative_url }}">Read my research</a>
+      <a class="btn btn--line" href="{{ '/projects/' | relative_url }}">See projects</a>
+    </p>
+  </div>
+  <figure class="hero__photo">
+    {% if p.photo != "" %}
+      <img src="{{ p.photo | relative_url }}" alt="Portrait of {{ site.author }}" width="800" height="1000">
+    {% else %}
+      <div class="photo-ph" role="img" aria-label="Photo placeholder"><span>{{ site.author | split: ' ' | first | slice: 0, 1 }}{{ site.author | split: ' ' | last | slice: 0, 1 }}</span></div>
+    {% endif %}
+  </figure>
+</section>
+
+<section class="wrap section" id="highlights">
+  <h2 class="section__label">Highlights</h2>
+  <dl class="facts">
+    {% for h in p.highlights %}
+    <div class="facts__row"><dt>{{ h.label }}</dt><dd>{{ h.text }}</dd></div>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="wrap section" id="contact">
+  <h2 class="section__label">Contact</h2>
+  <dl class="facts">
+    <div class="facts__row">
+      <dt>Email</dt>
+      <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a> <button class="copy" type="button" data-copy="{{ site.email }}">Copy</button></dd>
+    </div>
+    {% if site.github %}<div class="facts__row"><dt>GitHub</dt><dd><a href="https://github.com/{{ site.github }}" rel="me">github.com/{{ site.github }}</a></dd></div>{% endif %}
+    {% if site.linkedin %}<div class="facts__row"><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/{{ site.linkedin }}" rel="me">linkedin.com/in/{{ site.linkedin }}</a></dd></div>{% endif %}
+    {% if site.scholar != "" %}<div class="facts__row"><dt>Scholar</dt><dd><a href="https://scholar.google.com/citations?user={{ site.scholar }}" rel="me">Google Scholar profile</a></dd></div>{% endif %}
+  </dl>
+</section>

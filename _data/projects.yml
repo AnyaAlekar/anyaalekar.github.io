@@ -1,0 +1,19 @@
+- title: Project one
+  year: 2026
+  summary: One plain sentence on what it does and who it helps.
+  tags: [Python, PyTorch]
+  links:
+    - { label: Code, url: "https://github.com/your-github-username/project-one" }
+    - { label: Demo, url: "https://example.com" }
+- title: Project two
+  year: 2025
+  summary: Say what you built, then what you learned from building it.
+  tags: [Rust, Systems]
+  links:
+    - { label: Code, url: "https://github.com/your-github-username/project-two" }
+- title: Project three
+  year: 2024
+  summary: Keep each summary under twenty words.
+  tags: [TypeScript, Web]
+  links:
+    - { label: Code, url: "https://github.com/your-github-username/project-three" }
