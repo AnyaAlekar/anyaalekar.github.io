@@ -1,19 +1,19 @@
-- title: Project one
-  year: 2026
-  summary: One plain sentence on what it does and who it helps.
+- title: Robustness Verification of Deep Neural Networks to Occlusion
+  year: 2024
+  summary: 
   tags: [Python, PyTorch]
   links:
-    - { label: Code, url: "https://github.com/your-github-username/project-one" }
-    - { label: Demo, url: "https://example.com" }
-- title: Project two
-  year: 2025
-  summary: Say what you built, then what you learned from building it.
-  tags: [Rust, Systems]
+    - { label: Code, url: "https://github.com/AnyaAlekar/NeuralNet-Occlusion-Robustness" }
+    # - { label: Demo, url: "https://example.com" }
+- title: Multilingual Hate Speech and Offensive Language Detection of Low Resource Languages
+- year: 2023
+  summary: 
+  tags: [Python]
   links:
-    - { label: Code, url: "https://github.com/your-github-username/project-two" }
-- title: Project three
-  year: 2024
-  summary: Keep each summary under twenty words.
-  tags: [TypeScript, Web]
-  links:
-    - { label: Code, url: "https://github.com/your-github-username/project-three" }
+    - { label: Code, url: "https://github.com/16AbhinavReddy/Multilingual-Hate-Speech-and-Offensive-Language-Detection-of-Low-Resource-Languages" }
+# - title: Project three
+#   year: 2024
+#   summary: Keep each summary under twenty words.
+#   tags: [TypeScript, Web]
+#   links:
+#     - { label: Code, url: "https://github.com/your-github-username/project-three" }

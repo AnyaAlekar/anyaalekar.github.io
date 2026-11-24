@@ -1,15 +1,15 @@
 # ---- Identity (edit these) ----
-title: Your Name
-author: Your Name
+title: Ananya Alekar
+author: Ananya Alekar
 description: Software engineer and AI researcher.
-email: you@example.com
-github: your-github-username
-linkedin: your-linkedin-username
+email: alekar.an08@gmail.com
+github: AnyaAlekar
+linkedin: https://www.linkedin.com/in/ananya-alekar-682547226/
 scholar: ""          # Google Scholar profile id, e.g. AbCdEfGh1234 (optional)
 
 # User site (username.github.io): leave baseurl empty.
 # Project site: baseurl: "/repo-name"
-url: "https://your-github-username.github.io"
+url: "https://anyaalekar.github.io"
 baseurl: ""
 
 nav:

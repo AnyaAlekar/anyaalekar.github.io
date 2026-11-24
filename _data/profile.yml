@@ -1,16 +1,15 @@
 role: Software engineer and AI researcher
-location: City, Country
+location: Bengaluru, India
 # Put your photo at assets/img/profile.jpg, then set photo below. Leave empty to show a placeholder.
 photo: ""
 intro:
-  - I build machine learning systems and the software around them. My research focuses on topic one and topic two, with an emphasis on methods that hold up outside the lab.
-  - Before research I spent several years shipping production software. I like work that connects the two.
+  - My research interests are in Explainable AI and RL
 highlights:
   - label: Now
-    text: Role or position at Organisation, working on a short description.
+    text: Software Engineer at IBM, working in network infrastructure.
   - label: Focus
-    text: Large language models, evaluation, reliable machine learning systems.
+    text: explainability, reliable machine learning systems.
   - label: Education
-    text: PhD or MSc in Field, University, Year.
+    text: B.Tech in Computer Science from IIT Goa, 2025.
   - label: Recognition
-    text: A paper award, a grant, or a talk you are proud of.
+    text: 
