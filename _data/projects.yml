@@ -6,7 +6,7 @@
     - { label: Code, url: "https://github.com/AnyaAlekar/NeuralNet-Occlusion-Robustness" }
     # - { label: Demo, url: "https://example.com" }
 - title: Multilingual Hate Speech and Offensive Language Detection of Low Resource Languages
-- year: 2023
+  year: 2023
   summary: 
   tags: [Python]
   links:

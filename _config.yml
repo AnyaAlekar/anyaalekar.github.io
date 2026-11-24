@@ -2,14 +2,14 @@
 title: Ananya Alekar
 author: Ananya Alekar
 description: Software engineer and AI researcher.
-email: alekar.an08@gmail.com
+email: alekar.an08[at]gmail.com
 github: AnyaAlekar
-linkedin: https://www.linkedin.com/in/ananya-alekar-682547226/
-scholar: ""          # Google Scholar profile id, e.g. AbCdEfGh1234 (optional)
+# linkedin: https://www.linkedin.com/in/ananya-alekar-682547226/
+# scholar: "https://scholar.google.com/citations?user=WCZw--kAAAAJ&hl=en"          # Google Scholar profile id, e.g. AbCdEfGh1234 (optional)
 
 # User site (username.github.io): leave baseurl empty.
 # Project site: baseurl: "/repo-name"
-url: "https://anyaalekar.github.io"
+# url: "https://anyaalekar.github.io"
 baseurl: ""
 
 nav:
