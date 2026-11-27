@@ -9,13 +9,14 @@ github: AnyaAlekar
 
 # User site (username.github.io): leave baseurl empty.
 # Project site: baseurl: "/repo-name"
-# url: "https://anyaalekar.github.io"
+url: "https://anyaalekar.github.io"
 baseurl: ""
 
 nav:
   - { title: Home,     url: / }
   - { title: Research, url: /research/ }
   - { title: Projects, url: /projects/ }
+  - { title: CV,       url: /cv/ }
 
 # ---- Build (no theme: or remote_theme: line, this site ships its own) ----
 markdown: kramdown
